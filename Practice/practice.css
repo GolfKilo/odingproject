@@ -1,0 +1,9 @@
+
+.container + h1 {
+    color: blue;
+    }
+    
+    .container + h2 {
+    color:white;
+    background-color: blue;
+    }
