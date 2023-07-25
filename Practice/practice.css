@@ -3,13 +3,21 @@
     color: blue;
 }
     
-.container > h2 {
-    color:white;
-    background-color: blue;
+.container >p> .alert {
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
 }
 
-.container > p > span {
-    font-size: 200%;
+.container >p> .stop {
+    background-color: red;
 }
 
+.container >p> .go {
+    background-color: green;
+}
+
+#special {
+    background-color: yellow;
+}
 
