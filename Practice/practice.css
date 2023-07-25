@@ -1,23 +1,13 @@
-
-.container > h1 {
-    color: blue;
-}
-    
-.container >p> .alert {
-    border-style: solid;
-    border-width: 1px;
-    border-color: grey;
+.container > h2 + p {
+    color:red;
 }
 
-.container >p> .stop {
-    background-color: red;
+.list li {
+    list-style: none;
 }
 
-.container >p> .go {
-    background-color: green;
+.list ul {
+    list-style: circle;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
-
-#special {
-    background-color: yellow;
-}
-
